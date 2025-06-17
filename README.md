@@ -147,6 +147,25 @@ GitHub: github.com/vaishnavimetkar
 LinkedIn: linkedin.com/in/vaishnavimetkar
 ```
 
+## 📄 Project Report
+
+Download the full PDF report with explanation, techniques, and output graphs:
+
+👉 [Download PDF Report](./Retail_Sales_Forecasting.pdf)
+
+
+## 📈 Graphs images
+
+### 1. Actual vs Forecasted Sales
+![Forecast Plot](./images/actualvsforecastedsales.png)
+
+### 2. Seasonal Decompostion Plot
+![Forecast Plot](./images/Seasonaldecomposition_plot.png)
+
+### 3. ACF and PACF Plot
+![Forecast Plot](./images/ACFandPACF_plots.png)
+
+
 ## 📌 File Structure
 ```
 Retail-Sales-Forecasting/
@@ -154,5 +173,6 @@ Retail-Sales-Forecasting/
 ├── retail_sales_forecasting.py  # main Python script
 ├── retailsales.csv              # dataset
 ├── README.md                    # project documentation
+├── Retail_Sales_Forecasting.pdf # pdf report
 └── images/                      # optional - for EDA and forecast plots
 ```

@@ -27,11 +27,13 @@ plt.xlabel('date')
 plt.ylabel('value')
 plt.legend()
 plt.grid()
+plt.savefig("images/actualvsforecastedsales.png")
 plt.show()
 
 # Step 4: Decompose the time series to observe trend, seasonality, residuals
 decompose_result = seasonal_decompose(df['value'], model='additive', period=12)  # monthly data has period=12
 decompose_result.plot()
+plt.savefig("images/Seasonaldecomposition_plot.png")
 plt.show()
 
 # Step 5: Check if the time series is stationary using Augmented Dickey-Fuller test
@@ -77,6 +79,7 @@ plt.xlabel('date')
 plt.ylabel('value')
 plt.legend()
 plt.grid()
+plt.savefig("images/ACFandPACF_plots.png")
 plt.show()
 
 # Step 9: Evaluate forecast accuracy

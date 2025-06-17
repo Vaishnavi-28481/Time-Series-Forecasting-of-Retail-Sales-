@@ -175,4 +175,7 @@ Retail-Sales-Forecasting/
 ├── README.md                    # project documentation
 ├── Retail_Sales_Forecasting.pdf # pdf report
 └── images/                      # optional - for EDA and forecast plots
+│   ├── actualvsforecastedsales.png
+│   ├── Seasonaldecomposition_plot.png
+│   └── ACFandPACF_plots.png
 ```

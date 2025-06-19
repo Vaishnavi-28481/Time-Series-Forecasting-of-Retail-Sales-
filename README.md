@@ -162,7 +162,7 @@ Download the full PDF report with explanation, techniques, and output graphs:
 ### 2. Seasonal Decompostion Plot
 ![Forecast Plot](./images/Seasonaldecomposition_plot.png)
 
-### 3. Actual vs Forecast Plot
+### 3. Forecast Plot
 ![Forecast Plot](./images/forecast_plot.png)
 
 
@@ -177,5 +177,5 @@ Retail-Sales-Forecasting/
 └── images/                      # optional - for EDA and forecast plots
 │   ├── timeseriesline_plot.png
 │   ├── Seasonaldecomposition_plot.png
-│   └── forecast_plot_plot.png
+│   └── forecast_plot.png
 ```

@@ -27,7 +27,7 @@ plt.xlabel('date')
 plt.ylabel('value')
 plt.legend()
 plt.grid()
-plt.savefig("images/actualvsforecastedsales.png")
+plt.savefig("images/timeseriesline_plot.png")
 plt.show()
 
 # Step 4: Decompose the time series to observe trend, seasonality, residuals
@@ -79,7 +79,7 @@ plt.xlabel('date')
 plt.ylabel('value')
 plt.legend()
 plt.grid()
-plt.savefig("images/ACFandPACF_plots.png")
+plt.savefig("images/forecast_plot.png")
 plt.show()
 
 # Step 9: Evaluate forecast accuracy

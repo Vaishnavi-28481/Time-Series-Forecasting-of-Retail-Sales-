@@ -156,14 +156,14 @@ Download the full PDF report with explanation, techniques, and output graphs:
 
 ## 📈 Graphs images
 
-### 1. Actual vs Forecasted Sales
-![Forecast Plot](./images/actualvsforecastedsales.png)
+### 1. Time Series Line Plot
+![Forecast Plot](./images/timeseriesline_plot.png)
 
 ### 2. Seasonal Decompostion Plot
 ![Forecast Plot](./images/Seasonaldecomposition_plot.png)
 
-### 3. ACF and PACF Plot
-![Forecast Plot](./images/ACFandPACF_plots.png)
+### 3. Actual vs Forecast Plot
+![Forecast Plot](./images/forecast_plot.png)
 
 
 ## 📌 File Structure
@@ -175,7 +175,7 @@ Retail-Sales-Forecasting/
 ├── README.md                    # project documentation
 ├── Retail_Sales_Forecasting.pdf # pdf report
 └── images/                      # optional - for EDA and forecast plots
-│   ├── actualvsforecastedsales.png
+│   ├── timeseriesline_plot.png
 │   ├── Seasonaldecomposition_plot.png
-│   └── ACFandPACF_plots.png
+│   └── forecast_plot_plot.png
 ```
